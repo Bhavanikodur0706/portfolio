@@ -323,8 +323,8 @@ export default function Portfolio() {
   <div className="max-w-6xl mx-auto px-6 text-center">
     <div className="mb-8">
       <a
-        href="/Bhavani-Kodur-Resume.pdf"
-        download="Bhavani-Kodur-Resume.pdf"
+        href="./assets/Bhavani-Kodur-Resume.pdf"
+        download="./Bhavani-Kodur-Resume.pdf"
         className="group inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-110 font-semibold text-lg"
       >
         <svg
