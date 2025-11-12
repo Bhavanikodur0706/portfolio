@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Code, Briefcase, GraduationCap, Award, ChevronDown } from 'lucide-react';
 import myImage from './assets/mypic.jpeg';
+import myCV from '../public/mycv.pdf';
 export default function Portfolio() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [activeSection, setActiveSection] = useState('home');
@@ -323,8 +324,9 @@ export default function Portfolio() {
   <div className="max-w-6xl mx-auto px-6 text-center">
     <div className="mb-8">
       <a
-        href="./assets/Bhavani-Kodur-Resume.pdf"
-        download="./Bhavani-Kodur-Resume.pdf"
+        href={myCV}
+        download=
+        {myCV}
         className="group inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-110 font-semibold text-lg"
       >
         <svg
