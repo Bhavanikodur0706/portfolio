@@ -159,7 +159,7 @@ export default function Portfolio() {
           </h1>
           <h2 className="text-4xl text-gray-300 mb-8 animate-fadeIn">Full Stack Developer</h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-12 leading-relaxed animate-fadeIn">
-            Results-driven Full-Stack Developer with 4+ years of UAE experience specializing in React.js development. 
+            Results-driven Full-Stack Developer with 3+ years of UAE experience specializing in React.js development. 
             Building scalable, high-performance web applications with modern JavaScript.
           </p>
           <div className="flex gap-6 justify-center animate-fadeIn">
